@@ -6,8 +6,8 @@ import re
 import string
 
 # Load datasets
-df_fake = pd.read_csv('https://raw.githubusercontent.com/anmolairi03/Brainwave_Matrix_Intern/main/Fake.csv')
-df_true = pd.read_csv('https://raw.githubusercontent.com/anmolairi03/Brainwave_Matrix_Intern/main/True.csv')
+df_fake = pd.read_csv('https://raw.githubusercontent.com/anmolairi03/Brainwave_Matrix_Intern/main/task%201/Fake.csv')
+df_true = pd.read_csv('https://raw.githubusercontent.com/anmolairi03/Brainwave_Matrix_Intern/main/task%201/True.csv')
 
 # Assign class labels
 df_fake["class"] = 0
